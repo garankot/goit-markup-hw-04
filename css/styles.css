@@ -215,7 +215,9 @@ body {
 /* ===end hero=== */
 
 /* ===features_section=== */
-
+.features-section{
+  padding-top: 94px;
+}
 .features-list {
   display: flex;
 }
