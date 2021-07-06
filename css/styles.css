@@ -7,8 +7,10 @@
   --suptitle-color: #212121;
   --logo-color: #000000;
   --accent-color: #2196f3;
+  --bg-color: #C4C4C4;
   --main-font: "Roboto", "Arial", sans-serif;
   --secondary-font: "Raleway", sans-serif;
+  
 }
 
 h1,
@@ -57,7 +59,7 @@ body {
 .header-container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid #ECECEC;
 }
 
 .navigation {
@@ -159,20 +161,19 @@ body {
 
 /* ===hero=== */
 .hero-section{
-  background-color: var(--main-background-color);
-  max-width: 1600px;
-  margin: 0 auto;
-}
-
-.hero-container {
-  /* background-color: var(--main-background-color);
-  max-width: 1600px;
-  margin: 0 auto; */
-  
-  margin-left: auto;
-  margin-right: auto;
+  background-color: var(--bg-color);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+  url(../images/hero.jpg);
   padding-top: 200px;
   padding-bottom: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1600px;
+  height: 600px;
+  outline: 1px solid #000000;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-title {
@@ -449,6 +450,10 @@ body {
   margin-left: 30px;
   margin-top: 30px;
   background: #ffffff;
+}
+.projects-list-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+  1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .projects-suptitle {
   font-size: 18px;
