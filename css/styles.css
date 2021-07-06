@@ -8,6 +8,7 @@
   --logo-color: #000000;
   --accent-color: #2196f3;
   --bg-color: #C4C4C4;
+  --social-link-color: #AFB1B8;
   --main-font: "Roboto", "Arial", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   
@@ -342,6 +343,31 @@ body {
 }
 .members{
   padding: 30px 0;
+}
+.social-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+.social-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: var(--social-link-color);
+}
+.social-icon{
+  fill: currentColor;
+  width: 20px;
+  height: 20px;
+}
+.social-link:hover,
+.social-link:focus{
+color: var(--main-title-color);
+background-color: var(--accent-color);
 }
 /* ===end our_team_section=== */
 
