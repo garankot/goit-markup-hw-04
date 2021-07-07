@@ -159,7 +159,7 @@ body {
 
 /* ===end header=== */
 
-.section:not(:last-child) {
+.section {
   padding-bottom: 94px;
   padding-top: 94px;
 }
@@ -371,7 +371,52 @@ background-color: var(--accent-color);
 }
 /* ===end our_team_section=== */
 
-/* == */
+/* =clients section= */
+.clients-title {
+  font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--suptitle-color);
+margin-bottom: 50px;
+}
+
+.clients-list {
+  display: flex;
+  flex-wrap: wrap;  
+  align-items: center;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.clients-list-item {
+  display: block;
+  width: 170px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.clients-icon{
+  fill: currentColor;
+  width: 106px;
+  height: 60px;
+}
+
+.clients-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--social-link-color);
+  height: 92px;
+  border: 1px solid var(--social-link-color);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.clients-link:hover,
+.clients-link:focus{
+color: var(--accent-color);
+border-color: var(--accent-color);
+}
+
+/* =end clients section= */
 
 /* ===footer=== */
 .footer {
